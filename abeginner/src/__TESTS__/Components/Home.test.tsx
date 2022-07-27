@@ -1,6 +1,6 @@
 import React from 'react';
 import { render, screen } from '@testing-library/react';
-import Home from '../../Home';
+import Home from '../../layouts/Home';
 // Method 1
 describe('component', () => {
   it('render with props', () => {
@@ -13,5 +13,5 @@ describe('component', () => {
 test('has role and renders a content', () => {
   render(<Home name='prop' />);
   const divElement = screen.getByRole('contentinfo');
-  expect(divElement).toHaveTextContent('hi my name is bulagtok sumuko ka na');
+  expect(divElement).toHaveTextContent('hello my name is prop');
 });
