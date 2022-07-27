@@ -13,5 +13,5 @@ describe('component', () => {
 test('has role and renders a content', () => {
   render(<Home name='prop' />);
   const divElement = screen.getByRole('contentinfo');
-  expect(divElement).toHaveTextContent('hi my name is bulagtok sumuko ka na ');
+  expect(divElement).toHaveTextContent('hi my name is bulagtok sumuko ka na');
 });
