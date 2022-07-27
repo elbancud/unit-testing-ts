@@ -37,3 +37,13 @@ describe("description", () => {
     })
 });
 ```
+
+# Take notes
+
+```
+[x] make sure to have the roles existing in the element
+    ex: <a role="navigation" href="#">something</a>
+    ex: const anchorElement = screen.getByAllRole('navigation');
+    this should be present as it will be run downed.
+[x] in multiple testing, make sure to map out from the list
+```
