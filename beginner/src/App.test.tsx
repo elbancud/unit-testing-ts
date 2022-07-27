@@ -9,12 +9,12 @@ test('renders learn react link', () => {
   expect(linkElement).toBeInTheDocument();
 });
 
-it('sums a number', () => {
-  // expect(sum(1, 3)).t;
-});
-it('renders home component without crashing', () => {
-  // screen.
-});
+// it('sums a number', () => {
+//   // expect(sum(1, 3)).t;
+// });
+// it('renders home component without crashing', () => {
+//   // screen.
+// });
 // ----- Key Notes ------
 // | you can use it(), or test
 // | arrange,dk,assert
