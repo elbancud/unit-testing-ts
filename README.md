@@ -2,21 +2,10 @@
 
 This will be a guideline from beginner to advance level unit testing in react-typescript
 
-# Basic syntax format
+# To get started
 
 ```
-import React
-import {} // utilities
-ex: import {screen, render} from "@testing-library/react
-import Component from "./path";
-
-describe("description", () => {
-    it/test("description", () => {
-        // utilities();
-        // if this is a renderable component
-        ex: render(<Component props?=""/>)
-        const element = screen.getByText<utility here>(/the text that should be displayed/);
-        expect("description").to<Utility>();
-    })
-});
+- cd into the repo
+- do the basic set up
+    - npm i
 ```
