@@ -1,30 +1,58 @@
-# unit-testing-ts
+# About
 
-This will be a guideline from beginner to advance level unit testing in react-typescript
+> ⚠️ This repo is under construction! ⚠️
 
-## To get started
+This repo tackles and dives deep into [`unit testing`](https://www.techtarget.com/searchsoftwarequality/definition/unit-testing#:~:text=Unit%20testing%20is%20a%20software,developers%20and%20sometimes%20QA%20staff).
+This is a way to evaluate and assess a specific segment of the system.
 
-- cd into the repo
-- do the basic set up
-  `npm i`
-  `npm test`
+### For a better start
 
-## HREF
+```
+$ git clone ...
+$ cd into the repo
+$ git checkout dev
+$ git checkout -b your-branch
+$ npm i
+$ npm test
+```
+
+# Table of Contents
+
+1. Beginner
+   > This is for entry basic introduction of testing this includes:
+
+```
+- Api
+- Components
+- Functions
+- Layouts
+- Hooks
+```
+
+2. Intermediate
+3. Advance
+4. Bells and Whistles
+
+### Youtube Reference
 
 - TypeScript/React Testing: Components, Hooks, Custom Hooks, Redux and Zustand
   [Jack Harrington](https://www.youtube.com/watch?v=bvdHVxqjv80&t=708s).
 
-## Technologies Used
+### Technologies Used
 
 - For API Mock Server [MSW]](https://mswjs.io/docs/getting-started/install)
 - React Testing library [built-in](https://facebook.github.io/create-react-app/docs/running-tests)
 - [Typescript](https://www.typescriptlang.org/docs/handbook/react.html)
 - [JEST](https://jestjs.io/docs/getting-started)
 
-## What have been tested:
+<!-- ### What have been tested:
 
 - Api
 - Components
 - Functions
 - Layouts
-- Hooks
+- Hooks -->
+
+```
+
+```
