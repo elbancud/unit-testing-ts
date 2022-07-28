@@ -1,4 +1,9 @@
-# About
+<div align='center'>
+
+![logo](unit-test.png)
+
+</div>
+### About
 
 > ⚠️ This repo is under construction! ⚠️
 
@@ -16,7 +21,7 @@ $ npm i
 $ npm test
 ```
 
-# Table of Contents
+### Table of Contents
 
 1. Beginner
    > This is for entry basic introduction of testing this includes:
@@ -30,7 +35,13 @@ $ npm test
 ```
 
 2. Intermediate
+
+   > ⚠️ Wait a minute whehe! ⚠️
+
 3. Advance
+
+   > ⚠️ Waiting a minute wheeh! ⚠️
+
 4. Bells and Whistles
 
 ### Youtube Reference
@@ -52,7 +63,3 @@ $ npm test
 - Functions
 - Layouts
 - Hooks -->
-
-```
-
-```
