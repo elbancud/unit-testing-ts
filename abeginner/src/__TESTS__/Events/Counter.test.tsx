@@ -5,12 +5,14 @@ import { Counter } from '../../components/Counter';
 describe('onclick state', () => {
   it('adds 1 to the current value', () => {
     const onClick = jest.fn();
+    // Render
     render(<Counter />);
-
-    const buttonElement = screen.getByText('add');
+    // Div
     const divElement = screen.getByRole('contentinfo');
-
+    const buttonElement = screen.getByText('add');
+    // Fire event
     fireEvent.click(buttonElement);
+    // Expects
     expect(divElement).toHaveTextContent('Count is 1');
   });
 });
