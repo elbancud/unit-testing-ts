@@ -6,8 +6,8 @@ This will be a guideline from beginner to advance level unit testing in react-ty
 
 - cd into the repo
 - do the basic set up
-  ### npm i
-  ### npm test
+  `npm i`
+  `npm test`
 
 ## HREF
 
