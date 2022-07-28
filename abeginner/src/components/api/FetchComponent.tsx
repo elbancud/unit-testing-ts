@@ -17,6 +17,6 @@ function FetchComponent() {
       isMounted = false;
     };
   }, []);
-  return <div></div>;
+  return <div>{data && <div role='contentinfo'>Name is {data.name}</div>}</div>;
 }
 export default FetchComponent;
