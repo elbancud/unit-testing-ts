@@ -23,6 +23,6 @@ describe('api fetch', () => {
   test('gets the data', async () => {
     render(<FetchComponent />);
     const divElement = await screen.findByRole('contentinfo');
-    expect(divElement).toHaveTextContent('Name is ubwebweb');
+    expect(divElement).toHaveTextContent('Name is jack');
   });
 });
